@@ -1,0 +1,13 @@
+"./syscfg/ti_drivers_config.obj"
+"./syscfg/ti_net_config.obj"
+"./syscfg/ti_drivers_net_wifi_config.obj"
+"./main_tirtos.obj"
+"./mqtt_client_app.obj"
+"./mqtt_if.obj"
+"./network_if.obj"
+"./uart_term.obj"
+"../cc32xxs_tirtos.cmd"
+-lti_utils_build_linker.cmd.genlibs
+-l"C:/Users/hoogv/workspace_v12/tirtos_builds_cc32xx_release_ccs/Debug/configPkg/linker.cmd"
+-l"ti/devices/cc32xx/driverlib/ccs/Release/driverlib.a"
+-llibc.a
